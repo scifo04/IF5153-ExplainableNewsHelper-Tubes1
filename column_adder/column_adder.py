@@ -1,7 +1,6 @@
 import json
 import pandas as pd
 import re
-import numpy as np
 
 with open("added_column_from_prompt.json", "r", encoding="utf-8") as f:
     data = json.load(f)
