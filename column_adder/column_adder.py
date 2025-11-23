@@ -12,7 +12,7 @@ ner_list = []
 summary_list = []
 
 for ner in ner_json_list:
-    print(ner['answer'])
+    print(ner['prompt'])
     ner_list.append(json.loads(ner['answer']))
 
 for i, summary in enumerate(summary_json_list):
