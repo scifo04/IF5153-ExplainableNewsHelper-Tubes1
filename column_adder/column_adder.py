@@ -2,7 +2,7 @@ import json
 import pandas as pd
 import re
 
-with open("added_data_from_prompts.json", "r", encoding="utf-8") as f:
+with open("added_data_from_prompts_new.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 ner_json_list = data[0]
